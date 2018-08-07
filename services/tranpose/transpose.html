@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="Ryan Yoon">
+    <title>Tranpose</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="info_container">
+        <div id="title">Transpose</div>
+        <div id="description">Takes a CSV and inverts the rows and columns</div>
+    </div>
+    <div id="file_upload_container">
+        <form id="form_container" method="POST">
+            <input type="file" id="file_input" name="file" accept=".csv" multiple />
+            <button type="submit" id="upload_button">Upload</button>
+        </form>
+    </div>
+    <div id="results_container">
+        <div id="status_container"></div>
+        <div id="response_container"></div>
+    </div>
+</body>
+</html>

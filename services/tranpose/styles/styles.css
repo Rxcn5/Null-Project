@@ -1,0 +1,30 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info_container {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+}
+
+#file_upload_container {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+}
+
+#results_container {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+}
